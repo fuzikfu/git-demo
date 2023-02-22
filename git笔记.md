@@ -795,9 +795,9 @@ $ ssh-keygen -t rsa -C 123@qq.com
 4. Title随便填写，用于备注；将前面复制的内容贴近Key里
 5. 点击 Add SSH Key 表明 SSH 密钥关联成功
 6. 接下来通过SSH方式提交文件，在仓库主页点击Code，复制SSH链接
-
-
-
+7. 在本地`git add .`，`git status`，`git commit -m "SSH Test"`
+8. 在push上服务器不使用仓库链接，转而使用SSH链接 `git push git@github.com:fuzikfu/git-demo.git master`
+9. 等待上传完成即可
 
 ### 7.2 集成环境设置
 
